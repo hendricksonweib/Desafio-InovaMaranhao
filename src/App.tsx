@@ -1,8 +1,10 @@
+import Nav from "./template/NAV/Nav"
+
 function App() {
- 
+
   return (
     <>
-    <h1>Hello Trilhas!</h1>
+    <Nav/>
     </>
   )
 }
