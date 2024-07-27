@@ -19,10 +19,10 @@ const Nav: React.FC = () => {
           <div className="menu-icon__line"></div>
         </div>
         <nav className={`nav-items ${isOpen ? 'open' : ''}`}>
-          <li className="item__nav">Culinária</li>
-          <li className="item__nav">Festas</li>
-          <li className="item__nav">Artesanato</li>
-          <li className="item__nav">Turismo</li>
+          <a href=""><li className="item__nav">Culinária</li></a>
+          <a href=""><li className="item__nav">Festas</li></a>
+          <a href=""><li className="item__nav">Artesanato</li></a>
+          <a href=""><li className="item__nav">Turismo</li></a>
         </nav>
       </header>
     </>

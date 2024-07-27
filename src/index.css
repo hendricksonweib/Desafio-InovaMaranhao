@@ -1,10 +1,26 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 30rem;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.primary__button {
+  background-color: #F1A501;
+  color: white;
+  border-style: none;
+  padding: 0.4rem 1.5rem;
+  border-radius: 4px;
 }
