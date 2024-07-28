@@ -1,5 +1,4 @@
-import React from 'react'
-                          
+         
 import HeaderText from '../layout/HeaderText'
 function Fest() {
   return (

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Title from '../ui/Title'
 import Paragraph from '../ui/Paragraph'
 import PrimaryButton from '../ui/PrimaryButton'

@@ -1,20 +1,30 @@
-import Home from "./pages/Home";
-import Fest from "./pages/Fest";
-import Background from "./assets/AssetsBackground.svg";
-import Nav from "./template/NAV/Nav";
-import "./index.css";
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Fest from './pages/Fest';
+import Culinaria from './pages/Culinaria';
+import Turismo from './pages/Turismo';
+import Artesanato from './pages/Artesanato';
+import Nav from './template/NAV/Nav';
+import Background from './assets/AssetsBackground.svg';
+import './index.css';
 
 function App() {
-
   return (
     <>
-      <Nav/>
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path="/culinaria" element={<Culinaria />} />
+          <Route path="/festas" element={<Fest />} />
+          <Route path="/artesanato" element={<Artesanato />} />
+          <Route path="/turismo" element={<Turismo />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
       <img className="background" src={Background} alt="Background.svg" />
-      <div className="content">
-        <Fest/>
-      </div> 
     </>
-  )
+  );
 }
 
-export default App
+export default App;

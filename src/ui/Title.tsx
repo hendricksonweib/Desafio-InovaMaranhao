@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../style/global.css"
 
 interface TitleProps{

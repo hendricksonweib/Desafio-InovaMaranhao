@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from "../../../public/Logo.svg";
+import { Link } from 'react-router-dom';
 import './Nav.css'; 
 
 const Nav: React.FC = () => {
@@ -19,10 +20,10 @@ const Nav: React.FC = () => {
           <div className="menu-icon__line"></div>
         </div>
         <nav className={`nav-items ${isOpen ? 'open' : ''}`}>
-          <a href=""><li className="item__nav">Culinária</li></a>
-          <a href=""><li className="item__nav">Festas</li></a>
-          <a href=""><li className="item__nav">Artesanato</li></a>
-          <a href=""><li className="item__nav">Turismo</li></a>
+        <Link to="/culinaria" className="nav-items" onClick={toggleMenu}>Culinária</Link>
+        <Link to="/festas" className="nav-items" onClick={toggleMenu}>Festas</Link>
+        <Link to="/artesanato" className="nav-items" onClick={toggleMenu}>Artesanato</Link>
+        <Link to="/turismo" className="nav-items" onClick={toggleMenu}>Turismo</Link>
         </nav>
       </header>
     </>
