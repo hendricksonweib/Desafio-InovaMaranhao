@@ -38,3 +38,17 @@
 .header__img {
   height: 35rem;
 }
+
+@media (max-width: 768px){
+  .header__conteiner {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .header__img {
+    height: 20rem;
+  }
+}
