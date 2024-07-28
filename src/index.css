@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.conteiner__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .background {
   position: fixed;
   top: 0;
@@ -12,15 +19,22 @@
   height: 30rem;
 }
 
-.content {
-  position: relative;
-  z-index: 1;
-}
-
 .primary__button {
   background-color: #F1A501;
   color: white;
   border-style: none;
   padding: 0.4rem 1.5rem;
   border-radius: 4px;
+}
+
+.header__conteiner {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.header__img {
+  height: 35rem;
 }

@@ -1,8 +1,12 @@
-import React from 'react'
+import HeaderText from '../layout/HeaderText'
 
 function Turismo() {
   return (
-    <div>Turismo</div>
+    <>
+    <main className="conteiner__body">
+        <HeaderText ParagraphText='FESTAS' TitleText='Celebre as Festas do Maranhão' ButtonText='Saiba Mais'/>
+    </main>
+    </>
   )
 }
 
