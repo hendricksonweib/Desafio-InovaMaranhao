@@ -62,7 +62,7 @@ function Culinaria() {
             </div>
           </div>
         </section>
-        {/* revenues-  Receitas */}
+        {/* revenues -  Receitas */}
         <section className="revenues">
           <div className="container">
             <div className="revenues-info">
