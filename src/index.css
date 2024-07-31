@@ -25,6 +25,8 @@
   border-style: none;
   padding: 0.4rem 1.5rem;
   border-radius: 4px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .header__conteiner {
@@ -50,5 +52,307 @@
 
   .header__img {
     height: 20rem;
+  }
+}
+
+/*==#Culinária #==*/
+.img{
+  display: block;
+  height: auto;
+}
+.culinaria-title{
+  font-size: 2.3rem;
+  text-align: center;
+  line-height: 1.2;
+   padding: 24px;
+}
+.hero{
+padding: 85px;
+
+}
+.hero .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.hero-content{
+  width: 765px;
+
+}
+.subtitle-culinaria{
+  font-weight: 300;
+  padding: 8px;
+  color: #5E6282;
+}
+.hero-img{
+  display: block;
+}
+.hero-img img{
+  width: 100%;
+  object-fit: cover;
+}
+/* About */
+.about{
+  max-width: 97vw;
+  width: 100%;
+  margin: 0 auto;
+}
+.about .container{
+  width: 80%;
+  margin: 0 auto;
+ padding: 16px;
+}
+.about-list-item{
+  width: 80%;
+  margin:  0 auto;
+  padding: 26px 0;
+
+
+}
+.about-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 6px
+}
+
+.revenues{
+  padding: 52px 25px;
+ 
+  
+}
+.revenues-subtitle{
+  
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px;
+  margin-top: -18px;
+  
+}
+.revenues-list-cards{
+  width: 65vw;
+  grid-template-columns: 1fr;
+  margin: 24px auto;
+  place-items: center;
+  padding: 12px;
+  gap: 52px;
+  
+}
+.revenues-card{
+  background-color: #eeee;
+  box-shadow: 1px 0 10px #00000031;
+  width: 50vw;
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 12px;
+  margin: 24px auto;
+}
+.revenues-card-info{
+  width: 100%;
+  
+}
+.revenues-card-info img{
+  width: 100%;
+  object-fit: cover;
+}
+.revenues-card-subtitle{
+margin: 6px 0;
+text-align: center;
+color: #5E6282;
+}
+.revenues-card-link{
+  
+  display: grid;
+  place-items: center;
+  color: #5e6282c1;
+  transition: all .3s ease-in;
+}
+.revenues-card-link:hover{
+  color: #5E6282;
+}
+.revenues-title-link{
+  display: inline-block;
+  
+  transition: all .4s ease-in;
+  margin: 4px;
+}
+.revenues-title-link:hover{
+  color: #F1A501;
+}
+.revenues-card-title{
+  text-align: left;
+  
+  padding: 4px;
+  
+}
+.revenues-card-content{
+  width: 80vw;
+  margin: 12px 15px;
+}
+
+
+.feature{
+  
+  flex-direction: row-reverse;
+}
+
+/* Photo */
+.photo{
+  width: 87vw;
+  margin: 0 auto;
+  padding: 84px 0;
+  
+}
+.photo-subtitle{
+  margin-top: -80rem;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0 auto;
+
+}
+.list-photo{
+  width: 80vw;
+  background-color: #eeee;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 30px;
+  place-items: center;
+  gap: 6px;
+  margin: 21px auto;
+}
+.list-photo-item{
+  width: 80%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  margin: 6px 0;
+}
+.list-photo-link{
+ width:100%;
+}
+.list-photo-link img{
+  width: 100%;
+  object-fit: cover;
+  
+ 
+}
+.list-photo-title{
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 4px ;
+  font-weight: 500;
+  
+}
+
+
+@media (max-width: 768px){
+  .culinaria-title{
+    width: 100%;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 6px;
+    
+  }
+  .hero{
+    padding: 45px;
+    
+    }
+  .hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .hero-content{
+    width: 360px;
+    padding: 6px;
+  
+  }
+  .hero-img{
+    display: none;
+  }
+  .about-list-item{
+  width: 80vw;
+  margin: 0 auto;
+  padding: 13px 8px;
+
+
+}
+
+  .revenues{
+    
+    padding: 45px 25px;
+    
+  }
+
+  .revenues-subtitle{
+    width: 300px;
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+  }
+  .about-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 3px;
+  
+    
+  }
+ .revenues{
+  padding: 41px 15px;
+ 
+  
+}
+  .revenues-card{
+   width: 80vw;
+   
+    border-radius: 3px;
+  
+    flex-direction: column;
+    
+    
+ 
+    margin: 23px -45px;
+  
+  }
+  .revenues-card-content{
+   padding: 14px;
+   text-align: center;
+   margin: -13px 0;
+   
+  }
+  .revenues-card-title{
+    text-align: center;
+  }
+  .photo-subtitle{
+   
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+  
+  }
+  .list-photo{
+ 
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 15px;
+    gap: 6px;
+    margin: 7px 0;
+  }
+  .list-photo-title{
+    font-size: .9rem;
+    text-align: center;
+    padding: 5px ;
   }
 }

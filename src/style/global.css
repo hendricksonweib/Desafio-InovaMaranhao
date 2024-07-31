@@ -10,6 +10,8 @@
 .Paragraph{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    color: #0303039b;
+    margin: 5px 0;
 }
 
 .TextParagraph{
@@ -45,4 +47,6 @@
         padding: 50px 30px;
         text-align: justify;
     }
+   
+   
 }
