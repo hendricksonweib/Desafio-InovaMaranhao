@@ -8,7 +8,9 @@ interface TextProps{
 
 const Text: React.FC<TextProps> = ({ texto }) =>{
   return (
-    <p className="TextParagraph">{texto}</p>
+    <div className="TextParagraph" style={{ whiteSpace: 'pre-line' }}>
+    {texto}
+  </div>
   )
 }
 export default Text
