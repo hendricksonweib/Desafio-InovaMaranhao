@@ -3,6 +3,29 @@ import Title from '../ui/Title'
 import PrimaryButton from '../ui/PrimaryButton'
 import YouTubeVideo from '../ui/YouTubeVideo'
 import imgheader from "../../public/img-festa/image.png"
+import ImageGrid from '../template/ImageGrid/ImageGrid'
+
+import img1 from "../../public/img-festa/image1.png"
+import img2 from "../../public/img-festa/image2.png"
+import img3 from "../../public/img-festa/image3.png"
+import img4 from "../../public/img-festa/image4.png"
+import img5 from "../../public/img-festa/image5.png"
+import img6 from "../../public/img-festa/image6.png"
+import img7 from "../../public/img-festa/image7.png"
+import img8 from "../../public/img-festa/image8.png"
+import img9 from "../../public/img-festa/image9.png"
+
+const imageUrls = [
+img1,
+img2,
+img3,
+img4,
+img5,
+img6,
+img7,
+img8,
+img9
+]
 
 function Fest() {
   return (
@@ -62,7 +85,7 @@ function Fest() {
         </div>
       </div>
       <div className="conteiner">
-        
+      <ImageGrid images={imageUrls} />
       </div>
     </>
   )
