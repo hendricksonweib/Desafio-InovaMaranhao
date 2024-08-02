@@ -56,7 +56,7 @@ function Home() {''
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src="../../public/img-home/icons/Festa.png" alt="icon" className="img " width={67}  height={75}/>
+                    <img src="/img-home/icons/Festa.png" alt="icon" className="img " width={67}  height={75}/>
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
@@ -72,7 +72,7 @@ function Home() {''
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src="../../public/img-home/icons/Artesanato.png" alt="icon" className="img " width={67}  height={75}/>
+                    <img src="/img-home/icons/Artesanato.png" alt="icon" className="img " width={67}  height={75}/>
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
@@ -88,7 +88,7 @@ function Home() {''
               <li className="categories-list-item ">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src="../../public/img-home/icons/Turísmo.png" alt="icon" className="img " width={67}  height={75}/>
+                    <img src="/img-home/icons/Turísmo.png" alt="icon" className="img " width={67}  height={75}/>
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
@@ -120,33 +120,33 @@ function Home() {''
           </div>
           <div className="charms-state-cards">
             <div className="charms-state-card">
-              <img src="../../public/img-home/maranhao-alcantara.webp" alt="Alcântara"  className="img state-card-img"/>
+              <img src="/img-home/maranhao-alcantara.webp" alt="Alcântara"  className="img state-card-img"/>
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Alcântara</h4>
                 <div className="charms-state-card-content">
-                  <img src="../../public/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
+                  <img src="/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
                   <p className="state-card-content-text">Viagem de 10 dias</p>
                 </div>
             
               </div>
             </div>
             <div className="charms-state-card">
-              <img src="../../public/img-home/maranhao-chapada.jpg.webp" alt="Chapada das Mesas"  className="img state-card-img"/>
+              <img src="/img-home/maranhao-chapada.jpg.webp" alt="Chapada das Mesas"  className="img state-card-img"/>
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Chapada das Mesas</h4>
                 <div className="charms-state-card-content">
-                  <img src="../../public/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
+                  <img src="/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
                   <p className="state-card-content-text">Viagem de 5 dias</p>
                 </div>
             
               </div>
             </div>
             <div className="charms-state-card">
-              <img src="../../public/img-home/passeios-lencois-maranhenses.webp" alt="Lençóis Maranhenses"  className="img state-card-img"/>
+              <img src="/img-home/passeios-lencois-maranhenses.webp" alt="Lençóis Maranhenses"  className="img state-card-img"/>
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Lençóis Maranhenses</h4>
                 <div className="charms-state-card-content">
-                  <img src="../../public/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
+                  <img src="/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
                   <p className="state-card-content-text">Viagem de 15 dias</p>
                 </div>
             
@@ -166,21 +166,21 @@ function Home() {''
             </div>
             <ul className="Benefits-list list">
               <li className="Benefits-list-item ">
-                <img src="../../public/img-home/icons/Cultura.png" alt="icon 6"  className="img"/>
+                <img src="/img-home/icons/Cultura.png" alt="icon 6"  className="img"/>
                 <div  className="Benefits-list-content">
                   <h4 className="Benefits-list-title">Natureza Deslumbrante</h4>
                   <p className="Benefits-list-text">Descubra os Lençóis Maranhenses e suas paisagens únicas de dunas e lagoas cristalinas.</p>
                 </div>
               </li>
               <li className="Benefits-list-item ">
-                <img src="../../public/img-home/icons/Natureza.png" alt="icon 7"  className="img"/>
+                <img src="/img-home/icons/Natureza.png" alt="icon 7"  className="img"/>
                 <div  className="Benefits-list-content">
                   <h4 className="Benefits-list-title">Cultura Vibrante</h4>
                   <p className="Benefits-list-text">Viva a intensidade das festas juninas e a magia do bumba meu boi, símbolos da cultura maranhense.</p>
                 </div>
               </li>
               <li className="Benefits-list-item ">
-                <img src="../../public/img-home/icons/História.png" alt="icon 8"  className="img"/>
+                <img src="/img-home/icons/História.png" alt="icon 8"  className="img"/>
                 <div  className="Benefits-list-content">
                   <h4 className="Benefits-list-title">História Preservada</h4>
                   <p className="Benefits-list-text">Explore São Luís e Alcântara, cidades históricas com arquitetura colonial e patrimônios culturais ricos..</p>
@@ -189,7 +189,7 @@ function Home() {''
             </ul>
           </div>
           <div className="Benefits-img">
-            <img src="../../public/img-home/viagem-maranhao.png" alt="Vantagens de Uma Viagem"  className="img"/>
+            <img src="/img-home/viagem-maranhao.png" alt="Vantagens de Uma Viagem"  className="img"/>
           </div>
         </div>
       </section>
@@ -202,7 +202,7 @@ function Home() {''
             <Title texto="O que as pessoas 
             dizem sobre" />
         </div>
-        <img className="imgdepoimento" src="../../public/img-home/imageComentario.png" alt="" />
+        <img className="imgdepoimento" src="/img-home/imageComentario.png" alt="" />
       </section>
       <section className="depoimentos">
 
