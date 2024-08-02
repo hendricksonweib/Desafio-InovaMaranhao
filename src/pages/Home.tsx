@@ -3,7 +3,6 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-import homeImage from '../../public/img-home/home-img.png';
 
 import imgicon1 from "../../public/img-home/icons/Culinaria.png";
 import imgicon2 from "../../public/img-home/icons/Festa.png";
@@ -41,13 +40,8 @@ function Home() {''
             <PrimaryButton texto="Descubra as Maravilhas do Maranhão!" />
           </div>
           <div className="home-hero-img">
-            <img
-              src="../../public/img-home/home-img.png"
-              alt="Imagem de viagem"
-              className="img"
-              width={590}
-              height={517}
-            />
+          <img src="/img-home/home-img.png" alt="Home Image" />
+          
           </div>
         </div>
       </section>
