@@ -28,6 +28,7 @@
     flex-direction: column;
     width: 30rem;
 }
+<<<<<<< HEAD
 .depoimentos{
     display: flex;
     align-items: center;
@@ -40,6 +41,9 @@
 .imgdepoimento{
     margin-top: 6rem;
 }
+=======
+
+>>>>>>> f573e00ee03db43016ccf6d2e860785aeebbd111
 .youtube-video{
     display: flex;
     align-items: center;

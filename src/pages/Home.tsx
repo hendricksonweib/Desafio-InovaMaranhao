@@ -1,25 +1,25 @@
-import PrimaryButton from "../ui/PrimaryButton"
-import Title from "../ui/Title"
-import Paragraph from "../ui/Paragraph"
+import PrimaryButton from "../ui/PrimaryButton";
+import Title from "../ui/Title";
 
+import Paragraph from "../ui/Paragraph";
 // Imagens
-import imgHome from "../../public/img-home/home-img.png";
-import imgicon1 from "../../public/img-home/icons/Culinaria.png";
-import imgicon2 from "../../public/img-home/icons/Festa.png";
-import imgicon3 from "../../public/img-home/icons/Artesanato.png";
-import imgicon4 from "../../public/img-home/icons/Turísmo.png";
-import imgIcon5 from"../../public/img-home/icons/Seta.png";
-import imgIcon6 from "../../public/img-home/icons/Cultura.png";
-import imgIcon7 from "../../public/img-home/icons/Natureza.png";
-import imgIcon8 from "../../public/img-home/icons/História.png";
-import imgComentario from "../../public/img-home/imageComentario.png"
+import imgHome from "../../public/Img-home/home-img.png";
+import imgicon1 from "../../public/Img-home/icons/Culinaria.png";
+import imgicon2 from "../../public/Img-home/icons/Festa.png";
+import imgicon3 from "../../public/Img-home/icons/Artesanato.png";
+import imgicon4 from "../../public/Img-home/icons/Turísmo.png";
+import imgIcon5 from"../../public/Img-home/icons/Seta.png";
+import imgIcon6 from "../../public/Img-home/icons/Cultura.png";
+import imgIcon7 from "../../public/Img-home/icons/Natureza.png";
+import imgIcon8 from "../../public/Img-home/icons/História.png";
 
-import imgCard1 from "../../public/img-home/maranhao-alcantara.webp";
-import imgCard2 from "../../public/img-home/maranhao-chapada.jpg.webp";
-import imgCard3 from "../../public/img-home/passeios-lencois-maranhenses.webp";
-import img1 from "../../public/img-home/viagem-maranhao.png";
 
-import "../style/global.css"
+import imgCard1 from "../../public/Img-home/maranhao-alcantara.webp";
+import imgCard2 from "../../public/Img-home/maranhao-chapada.jpg.webp";
+import imgCard3 from "../../public/Img-home/passeios-lencois-maranhenses.webp";
+import img1 from "../../public/Img-home/viagem-maranhao.png";
+
+
 
 
 function Home() {''
@@ -215,6 +215,7 @@ function Home() {''
           </div>
         </div>
       </section>
+<<<<<<< HEAD
       <section className="depoimentos">
         <div className="conteiner">
             <Paragraph
@@ -240,6 +241,8 @@ function Home() {''
         </div>
         </div>
       </section>
+=======
+>>>>>>> f573e00ee03db43016ccf6d2e860785aeebbd111
     </>
   );
 }

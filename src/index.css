@@ -59,6 +59,7 @@
 
 .container{
   padding: 16px;
+  text-align: justify;
 }
 .list{
   list-style: none;
@@ -235,13 +236,20 @@ padding: 12px;
  font-size: .8rem;
  color: #5E6282;
 }
-/*==#Culinária #==*/
+/*==#Culinária, Turismo #==*/
 
-.culinaria-title{
+.culinaria-title, .turism-title{
   font-size: 2.3rem;
   text-align: center;
   line-height: 1.2;
-   padding: 24px;
+  padding: 24px;
+}
+.turismo-grid-title {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 24px;
+  margin-top: -100px;
 }
 .hero{
 padding: 85px;
@@ -283,6 +291,7 @@ padding: 85px;
   max-width: 97vw;
   width: 100%;
   margin: 0 auto;
+  text-align: justify;
 }
 .about .container{
   width: 80%;
@@ -299,16 +308,16 @@ padding: 85px;
 .about-title{
   font-size: 1.6rem;
   font-weight: 700;
-  padding: 6px
+  padding: 16px
 }
 
 /* ==#RECEITAS #==*/
-.revenues{
+.revenues, .turism{
   padding: 52px 25px;
  
   
 }
-.revenues-subtitle{
+.revenues-subtitle, .turism-subtitle{
   
   margin: 0 auto;
   text-align: center;
@@ -316,7 +325,7 @@ padding: 85px;
   margin-top: -18px;
   
 }
-.revenues-list-cards{
+.revenues-list-cards, .turism-list-cards{
   width: 65vw;
   grid-template-columns: 1fr;
   margin: 24px auto;
@@ -325,7 +334,7 @@ padding: 85px;
   gap: 52px;
   
 }
-.revenues-card{
+.revenues-card, .turism-card{
   background-color: #eeee;
   box-shadow: 1px 0 10px #00000031;
   width: 50vw;
@@ -338,45 +347,45 @@ padding: 85px;
   padding: 12px;
   margin: 24px auto;
 }
-.revenues-card-info{
+.revenues-card-info, .turism-card-info{
   width: 100%;
   
 }
-.revenues-card-info img{
+.revenues-card-info img, .turism-card-info img{
   width: 100%;
   object-fit: cover;
 }
-.revenues-card-subtitle{
+.revenues-card-subtitle, .turism-card-subtitle{
 margin: 6px 0;
 text-align: center;
 color: #5E6282;
 }
-.revenues-card-link{
+.revenues-card-link, .turism-card-link{
   
   display: grid;
   place-items: center;
   color: #5e6282c1;
   transition: all .3s ease-in;
 }
-.revenues-card-link:hover{
+.revenues-card-link:hover, .turism-card-link:hover{
   color: #5E6282;
 }
-.revenues-title-link{
+.revenues-title-link, .turism-title-link{
   display: inline-block;
   
   transition: all .4s ease-in;
   margin: 4px;
 }
-.revenues-title-link:hover{
+.revenues-title-link:hover, .turism-title-link:hover{
   color: #F1A501;
 }
-.revenues-card-title{
+.revenues-card-title, .turism-card-title{
   text-align: left;
   
   padding: 4px;
   
 }
-.revenues-card-content{
+.revenues-card-content, .turism-card-content{
   width: 80vw;
   margin: 12px 15px;
 }
