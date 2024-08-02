@@ -42,7 +42,7 @@ function Home() {''
           </div>
           <div className="home-hero-img">
             <img
-              src={homeImage}
+              src="../../public/img-home/home-img.png"
               alt="Imagem de viagem"
               className="img"
               width={590}
