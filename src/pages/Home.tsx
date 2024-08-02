@@ -3,13 +3,6 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-import imgicon2 from "../../public/img-home/icons/Festa.png";
-import imgicon3 from "../../public/img-home/icons/Artesanato.png";
-import imgicon4 from "../../public/img-home/icons/Turísmo.png";
-import imgIcon5 from "../../public/img-home/icons/Seta.png";
-import imgIcon6 from "../../public/img-home/icons/Cultura.png";
-import imgIcon7 from "../../public/img-home/icons/Natureza.png";
-import imgIcon8 from "../../public/img-home/icons/História.png";
 import ImagemComentario from "../../public/img-home/imageComentario.png";
 
 import imgCard1 from "../../public/img-home/maranhao-alcantara.webp";
@@ -72,7 +65,7 @@ function Home() {''
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src={imgicon2} alt="icon" className="img " width={67}  height={75}/>
+                    <img src="../../public/img-home/icons/Festa.png" alt="icon" className="img " width={67}  height={75}/>
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
@@ -88,7 +81,7 @@ function Home() {''
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src={imgicon3} alt="icon" className="img " width={67}  height={75}/>
+                    <img src="../../public/img-home/icons/Artesanato.png" alt="icon" className="img " width={67}  height={75}/>
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
@@ -104,7 +97,7 @@ function Home() {''
               <li className="categories-list-item ">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src={imgicon4} alt="icon" className="img " width={67}  height={75}/>
+                    <img src="../../public/img-home/icons/Turísmo.png" alt="icon" className="img " width={67}  height={75}/>
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
@@ -140,7 +133,7 @@ function Home() {''
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Alcântara</h4>
                 <div className="charms-state-card-content">
-                  <img src={imgIcon5 } alt="icon" width={20} height={20}  className="img"/>
+                  <img src="../../public/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
                   <p className="state-card-content-text">Viagem de 10 dias</p>
                 </div>
             
@@ -182,21 +175,21 @@ function Home() {''
             </div>
             <ul className="Benefits-list list">
               <li className="Benefits-list-item ">
-                <img src={imgIcon6} alt="icon 6"  className="img"/>
+                <img src="../../public/img-home/icons/Cultura.png" alt="icon 6"  className="img"/>
                 <div  className="Benefits-list-content">
                   <h4 className="Benefits-list-title">Natureza Deslumbrante</h4>
                   <p className="Benefits-list-text">Descubra os Lençóis Maranhenses e suas paisagens únicas de dunas e lagoas cristalinas.</p>
                 </div>
               </li>
               <li className="Benefits-list-item ">
-                <img src={imgIcon7} alt="icon 7"  className="img"/>
+                <img src="../../public/img-home/icons/Natureza.png" alt="icon 7"  className="img"/>
                 <div  className="Benefits-list-content">
                   <h4 className="Benefits-list-title">Cultura Vibrante</h4>
                   <p className="Benefits-list-text">Viva a intensidade das festas juninas e a magia do bumba meu boi, símbolos da cultura maranhense.</p>
                 </div>
               </li>
               <li className="Benefits-list-item ">
-                <img src={imgIcon8} alt="icon 8"  className="img"/>
+                <img src="../../public/img-home/icons/História.png" alt="icon 8"  className="img"/>
                 <div  className="Benefits-list-content">
                   <h4 className="Benefits-list-title">História Preservada</h4>
                   <p className="Benefits-list-text">Explore São Luís e Alcântara, cidades históricas com arquitetura colonial e patrimônios culturais ricos..</p>
