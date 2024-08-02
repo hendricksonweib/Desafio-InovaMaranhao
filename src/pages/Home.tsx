@@ -2,10 +2,6 @@ import PrimaryButton from "../ui/PrimaryButton";
 import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
-// Imagens
-import img1 from "../../public/img-home/viagem-maranhao.png";
-
-
 
 
 
