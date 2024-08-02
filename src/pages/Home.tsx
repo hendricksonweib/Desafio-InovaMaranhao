@@ -6,7 +6,7 @@ import Paragraph from "../ui/Paragraph";
 import imgicon1 from "../../public/img-home/icons/Culinaria.png";
 import imgicon2 from "../../public/img-home/icons/Festa.png";
 import imgicon3 from "../../public/img-home/icons/Artesanato.png";
-import imgicon4 from "../../public/img-home/icons/Turismo.png";
+import imgicon4 from "../../public/img-home/icons/Turísmo.png";
 import imgIcon5 from "../../public/img-home/icons/Seta.png";
 import imgIcon6 from "../../public/img-home/icons/Cultura.png";
 import imgIcon7 from "../../public/img-home/icons/Natureza.png";
