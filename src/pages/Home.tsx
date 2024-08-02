@@ -3,7 +3,6 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-import imgicon1 from "../../public/img-home/icons/Culinaria.png";
 import imgicon2 from "../../public/img-home/icons/Festa.png";
 import imgicon3 from "../../public/img-home/icons/Artesanato.png";
 import imgicon4 from "../../public/img-home/icons/Turísmo.png";
@@ -57,7 +56,7 @@ function Home() {''
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src={imgicon1} alt="icon" className="img " width={67}  height={75}/>
+                  <img src="/img-home/icons/Culinaria.png" alt="icon" className="img" width={67} height={75} />
                   </div>
                   <div className="categories-list-info">
                     <h5 className="categories-list-title">
