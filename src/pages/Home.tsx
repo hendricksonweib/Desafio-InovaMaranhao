@@ -1,14 +1,27 @@
+import React from "react";
 import PrimaryButton from "../ui/PrimaryButton";
 import Title from "../ui/Title";
-
 import Paragraph from "../ui/Paragraph";
 
+// Importe as imagens
+import homeImg from "/img-home/home-img.png";
+import culinariaIcon from "/img-home/icons/Culinaria.png";
+import festaIcon from "/img-home/icons/Festa.png";
+import artesanatoIcon from "/img-home/icons/Artesanato.png";
+import turismoIcon from "/img-home/icons/Turísmo.png";
+import alcantaraImg from "/img-home/maranhao-alcantara.webp";
+import chapadaImg from "/img-home/maranhao-chapada.jpg.webp";
+import lencoisImg from "/img-home/passeios-lencois-maranhenses.webp";
+import culturaIcon from "/img-home/icons/Cultura.png";
+import naturezaIcon from "/img-home/icons/Natureza.png";
+import historiaIcon from "/img-home/icons/História.png";
+import viagemImg from "/img-home/viagem-maranhao.png";
+import comentarioImg from "/img-home/imageComentario.png";
 
-
-function Home() {''
+function Home() {
   return (
     <>
-    {/* HOME HERO - conteudo inicial da pagina */}
+      {/* HOME HERO - conteúdo inicial da página */}
       <section className="home-hero">
         <div className="container">
           <div className="home-hero-content">
@@ -23,47 +36,28 @@ function Home() {''
             <PrimaryButton texto="Descubra as Maravilhas do Maranhão!" />
           </div>
           <div className="home-hero-img">
-          <img src="/img-home/home-img.png" alt="Home Image" />
-          
+            <img src={homeImg} alt="Home Image" />
           </div>
         </div>
       </section>
-      {/* Categorias*/}
-      <section className="categories ">
+      {/* Categorias */}
+      <section className="categories">
         <div className="container">
           <div className="categories-info">
-            <h4 className="subtitle categories-subtitle ">Categorias</h4>
+            <h4 className="subtitle categories-subtitle">Categorias</h4>
             <h2 className="title categories-title">Explore o Maranhão Agora!</h2>
           </div>
           <div className="categories-lists">
-             <ul className="categories-list list">
+            <ul className="categories-list list">
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                  <img src="/img-home/icons/Culinaria.png" alt="icon" className="img" width={67} height={75} />
+                    <img src={culinariaIcon} alt="Culinária" className="img" width={67} height={75} />
                   </div>
                   <div className="categories-list-info">
-                    <h5 className="categories-list-title">
-                    Culinária
-                    </h5>
+                    <h5 className="categories-list-title">Culinária</h5>
                     <p className="categories-list-text">
-                    Delicie-se com arroz de cuxá e guaraná Jesus.
-                    </p>
-                  </div>
-                </a>
-                <span></span>
-              </li>
-              <li className="categories-list-item">
-                <a href="#" className="categories-list-link">
-                  <div className="categories-list-img">
-                    <img src="/img-home/icons/Festa.png" alt="icon" className="img " width={67}  height={75}/>
-                  </div>
-                  <div className="categories-list-info">
-                    <h5 className="categories-list-title">
-                    Festas
-                    </h5>
-                    <p className="categories-list-text">
-                    Celebre com bumba meu boi e festas juninas.
+                      Delicie-se com arroz de cuxá e guaraná Jesus.
                     </p>
                   </div>
                 </a>
@@ -72,91 +66,95 @@ function Home() {''
               <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src="/img-home/icons/Artesanato.png" alt="icon" className="img " width={67}  height={75}/>
+                    <img src={festaIcon} alt="Festas" className="img" width={67} height={75} />
                   </div>
                   <div className="categories-list-info">
-                    <h5 className="categories-list-title">
-                    Artesanato
-                    </h5>
+                    <h5 className="categories-list-title">Festas</h5>
                     <p className="categories-list-text">
-                    Explore redes, cerâmicas e bordados autênticos.
+                      Celebre com bumba meu boi e festas juninas.
                     </p>
                   </div>
                 </a>
                 <span></span>
               </li>
-              <li className="categories-list-item ">
+              <li className="categories-list-item">
                 <a href="#" className="categories-list-link">
                   <div className="categories-list-img">
-                    <img src="/img-home/icons/Turísmo.png" alt="icon" className="img " width={67}  height={75}/>
+                    <img src={artesanatoIcon} alt="Artesanato" className="img" width={67} height={75} />
                   </div>
                   <div className="categories-list-info">
-                    <h5 className="categories-list-title">
-                    Turísmo
-                    </h5>
+                    <h5 className="categories-list-title">Artesanato</h5>
                     <p className="categories-list-text">
-                    Visite Lençóis Maranhenses e São Luís histórica.
+                      Explore redes, cerâmicas e bordados autênticos.
                     </p>
                   </div>
                 </a>
                 <span></span>
               </li>
-
-             </ul>
+              <li className="categories-list-item">
+                <a href="#" className="categories-list-link">
+                  <div className="categories-list-img">
+                    <img src={turismoIcon} alt="Turísmo" className="img" width={67} height={75} />
+                  </div>
+                  <div className="categories-list-info">
+                    <h5 className="categories-list-title">Turísmo</h5>
+                    <p className="categories-list-text">
+                      Visite Lençóis Maranhenses e São Luís histórica.
+                    </p>
+                  </div>
+                </a>
+                <span></span>
+              </li>
+            </ul>
           </div>
-
         </div>
       </section>
-      {/*Charms State - explore belezas encantos estado   */}
+      {/* Charms State - explore belezas e encantos do estado */}
       <section className="charms-state">
         <div className="container">
           <div className="charms-state-info">
             <h4 className="categories-subtitle subtitle">
-            Melhores pontos turísticos
+              Melhores pontos turísticos
             </h4>
             <h2 className="charms-state-title title">
-            Explore as Belezas e Encantos do Nosso Estado
+              Explore as Belezas e Encantos do Nosso Estado
             </h2>
           </div>
           <div className="charms-state-cards">
             <div className="charms-state-card">
-              <img src="/img-home/maranhao-alcantara.webp" alt="Alcântara"  className="img state-card-img"/>
+              <img src={alcantaraImg} alt="Alcântara" className="img state-card-img" />
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Alcântara</h4>
                 <div className="charms-state-card-content">
-                  <img src="/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
+                  <img src={comentarioImg} alt="icon" width={20} height={20} className="img" />
                   <p className="state-card-content-text">Viagem de 10 dias</p>
                 </div>
-            
               </div>
             </div>
             <div className="charms-state-card">
-              <img src="/img-home/maranhao-chapada.jpg.webp" alt="Chapada das Mesas"  className="img state-card-img"/>
+              <img src={chapadaImg} alt="Chapada das Mesas" className="img state-card-img" />
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Chapada das Mesas</h4>
                 <div className="charms-state-card-content">
-                  <img src="/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
+                  <img src={comentarioImg} alt="icon" width={20} height={20} className="img" />
                   <p className="state-card-content-text">Viagem de 5 dias</p>
                 </div>
-            
               </div>
             </div>
             <div className="charms-state-card">
-              <img src="/img-home/passeios-lencois-maranhenses.webp" alt="Lençóis Maranhenses"  className="img state-card-img"/>
+              <img src={lencoisImg} alt="Lençóis Maranhenses" className="img state-card-img" />
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Lençóis Maranhenses</h4>
                 <div className="charms-state-card-content">
-                  <img src="/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
+                  <img src={comentarioImg} alt="icon" width={20} height={20} className="img" />
                   <p className="state-card-content-text">Viagem de 15 dias</p>
                 </div>
-            
               </div>
             </div>
           </div>
         </div>
-
       </section>
-      {/*Benefits - Vantagens de Uma Viagem Inesquecível   */}
+      {/* Benefits - Vantagens de Uma Viagem Inesquecível */}
       <section className="Benefits">
         <div className="container">
           <div className="Benefits-content">
@@ -165,57 +163,64 @@ function Home() {''
               <h2 className="Benefits-title">Vantagens de Uma Viagem Inesquecível</h2>
             </div>
             <ul className="Benefits-list list">
-              <li className="Benefits-list-item ">
-                <img src="/img-home/icons/Cultura.png" alt="icon 6"  className="img"/>
-                <div  className="Benefits-list-content">
+              <li className="Benefits-list-item">
+                <img src={culturaIcon} alt="Natureza Deslumbrante" className="img" />
+                <div className="Benefits-list-content">
                   <h4 className="Benefits-list-title">Natureza Deslumbrante</h4>
-                  <p className="Benefits-list-text">Descubra os Lençóis Maranhenses e suas paisagens únicas de dunas e lagoas cristalinas.</p>
+                  <p className="Benefits-list-text">
+                    Descubra os Lençóis Maranhenses e suas paisagens únicas de dunas e lagoas cristalinas.
+                  </p>
                 </div>
               </li>
-              <li className="Benefits-list-item ">
-                <img src="/img-home/icons/Natureza.png" alt="icon 7"  className="img"/>
-                <div  className="Benefits-list-content">
+              <li className="Benefits-list-item">
+                <img src={naturezaIcon} alt="Cultura Vibrante" className="img" />
+                <div className="Benefits-list-content">
                   <h4 className="Benefits-list-title">Cultura Vibrante</h4>
-                  <p className="Benefits-list-text">Viva a intensidade das festas juninas e a magia do bumba meu boi, símbolos da cultura maranhense.</p>
+                  <p className="Benefits-list-text">
+                    Viva a intensidade das festas juninas e a magia do bumba meu boi, símbolos da cultura maranhense.
+                  </p>
                 </div>
               </li>
-              <li className="Benefits-list-item ">
-                <img src="/img-home/icons/História.png" alt="icon 8"  className="img"/>
-                <div  className="Benefits-list-content">
+              <li className="Benefits-list-item">
+                <img src={historiaIcon} alt="História Preservada" className="img" />
+               
+                <div className="Benefits-list-content">
                   <h4 className="Benefits-list-title">História Preservada</h4>
-                  <p className="Benefits-list-text">Explore São Luís e Alcântara, cidades históricas com arquitetura colonial e patrimônios culturais ricos..</p>
+                  <p className="Benefits-list-text">
+                    Explore São Luís e Alcântara, cidades históricas com arquitetura colonial e patrimônios culturais ricos.
+                  </p>
                 </div>
               </li>
             </ul>
           </div>
           <div className="Benefits-img">
-            <img src="/img-home/viagem-maranhao.png" alt="Vantagens de Uma Viagem"  className="img"/>
+            <img src={viagemImg} alt="Vantagens de Uma Viagem" className="img" />
           </div>
         </div>
       </section>
+      {/* Depoimentos */}
       <section className="depoimentos">
         <div className="conteiner" id="comentariosid">
-            <Paragraph
-              fontWeight={"400"}
-              texto="DEPOIMENTOS"
-            />
-            <Title texto="O que as pessoas 
-            dizem sobre" />
+          <Paragraph
+            fontWeight={"400"}
+            texto="DEPOIMENTOS"
+          />
+          <Title texto="O que as pessoas dizem sobre" />
         </div>
-        <img className="imgdepoimento" src="/img-home/imageComentario.png" alt="" />
+        <img className="imgdepoimento" src={comentarioImg} alt="Depoimentos" />
       </section>
+      {/* Inscrição para mais informações */}
       <section className="depoimentos">
-
         <div className="cardimput">
-      <Title texto="Inscreva-se para Receber Mais Informações!" />
-      <Paragraph
-              fontWeight={"800"}
-              texto="Deixe seu email e não perca nenhuma novidade sobre o Maranhão."
-            />
-        <div className="input-conteiner">
-          <input className="inputEmail" type="email" placeholder="Digite seu email!"/>
-          <button className="inputbtn">Enviar</button>
-        </div>
+          <Title texto="Inscreva-se para Receber Mais Informações!" />
+          <Paragraph
+            fontWeight={"800"}
+            texto="Deixe seu email e não perca nenhuma novidade sobre o Maranhão."
+          />
+          <div className="input-conteiner">
+            <input className="inputEmail" type="email" placeholder="Digite seu email!" />
+            <button className="inputbtn">Enviar</button>
+          </div>
         </div>
       </section>
     </>
