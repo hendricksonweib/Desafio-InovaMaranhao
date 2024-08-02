@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
 
   return (
     <header>
-    <Link to="/"><img className='logo' src={Logo} alt="macultura.svg" /></Link>
+      <img className='logo' src={Logo} alt="macultura.svg" />
       <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="menu-icon__line"></div>
         <div className="menu-icon__line"></div>
