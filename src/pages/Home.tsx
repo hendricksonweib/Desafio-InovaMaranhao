@@ -3,10 +3,6 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-
-import imgCard1 from "../../public/img-home/maranhao-alcantara.webp";
-import imgCard2 from "../../public/img-home/maranhao-chapada.jpg.webp";
-import imgCard3 from "../../public/img-home/passeios-lencois-maranhenses.webp";
 import img1 from "../../public/img-home/viagem-maranhao.png";
 
 
@@ -128,7 +124,7 @@ function Home() {''
           </div>
           <div className="charms-state-cards">
             <div className="charms-state-card">
-              <img src={imgCard1} alt="Alcântara"  className="img state-card-img"/>
+              <img src="../../public/img-home/maranhao-alcantara.webp" alt="Alcântara"  className="img state-card-img"/>
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Alcântara</h4>
                 <div className="charms-state-card-content">
@@ -139,7 +135,7 @@ function Home() {''
               </div>
             </div>
             <div className="charms-state-card">
-              <img src={imgCard2} alt="Chapada das Mesas"  className="img state-card-img"/>
+              <img src="../../public/img-home/maranhao-chapada.jpg.webp" alt="Chapada das Mesas"  className="img state-card-img"/>
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Chapada das Mesas</h4>
                 <div className="charms-state-card-content">
@@ -150,7 +146,7 @@ function Home() {''
               </div>
             </div>
             <div className="charms-state-card">
-              <img src={imgCard3} alt="Lençóis Maranhenses"  className="img state-card-img"/>
+              <img src="../../public/img-home/passeios-lencois-maranhenses.webp" alt="Lençóis Maranhenses"  className="img state-card-img"/>
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Lençóis Maranhenses</h4>
                 <div className="charms-state-card-content">
@@ -197,7 +193,7 @@ function Home() {''
             </ul>
           </div>
           <div className="Benefits-img">
-            <img src={img1} alt="Vantagens de Uma Viagem"  className="img"/>
+            <img src="../../public/img-home/viagem-maranhao.png" alt="Vantagens de Uma Viagem"  className="img"/>
           </div>
         </div>
       </section>
