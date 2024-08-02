@@ -8,7 +8,8 @@ import Artesanato from './pages/Artesanato';
 import Nav from './template/NAV/Nav';
 import Background from './assets/AssetsBackground.svg';
 import './index.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './template/footer/footer';
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
         </Routes>
       </Router>
       <img className="background" src={Background} alt="Background.svg" />
+      <Footer/>
     </>
   );
 }
