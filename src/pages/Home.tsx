@@ -144,7 +144,7 @@ function Home() {''
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Chapada das Mesas</h4>
                 <div className="charms-state-card-content">
-                  <img src={imgIcon5 } alt="icon" width={20} height={20}  className="img"/>
+                  <img src="../../public/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
                   <p className="state-card-content-text">Viagem de 5 dias</p>
                 </div>
             
@@ -155,7 +155,7 @@ function Home() {''
               <div className="charms-state-card-info">
                 <h4 className="charms-state-card-title">Lençóis Maranhenses</h4>
                 <div className="charms-state-card-content">
-                  <img src={imgIcon5 } alt="icon" width={20} height={20}  className="img"/>
+                  <img src="../../public/img-home/icons/Seta.png" alt="icon" width={20} height={20}  className="img"/>
                   <p className="state-card-content-text">Viagem de 15 dias</p>
                 </div>
             
