@@ -4,19 +4,21 @@ import Title from "../ui/Title";
 import Paragraph from "../ui/Paragraph";
 
 // Importe as imagens
-import homeImg from "/img-home/home-img.png";
-import culinariaIcon from "/img-home/icons/Culinaria.png";
-import festaIcon from "/img-home/icons/Festa.png";
-import artesanatoIcon from "/img-home/icons/Artesanato.png";
-import turismoIcon from "/img-home/icons/Turísmo.png";
-import alcantaraImg from "/img-home/maranhao-alcantara.webp";
-import chapadaImg from "/img-home/maranhao-chapada.jpg.webp";
-import lencoisImg from "/img-home/passeios-lencois-maranhenses.webp";
-import culturaIcon from "/img-home/icons/Cultura.png";
-import naturezaIcon from "/img-home/icons/Natureza.png";
-import historiaIcon from "/img-home/icons/História.png";
-import viagemImg from "/img-home/viagem-maranhao.png";
-import comentarioImg from "/img-home/imageComentario.png";
+
+import homeImg from "../../public/img-home/home-img.png";
+import culinariaIcon from "../../public/img-home/icons/Culinaria.png";
+import festaIcon from "../../public/img-home/icons/Festa.png";
+import artesanatoIcon from "../../public/img-home/icons/Artesanato.png";
+import turismoIcon from "../../public/img-home/icons/Turísmo.png";
+import alcantaraImg from "../../public/img-home/maranhao-alcantara.webp";
+import chapadaImg from "../../public/img-home/maranhao-chapada.jpg.webp";
+import lencoisImg from "../../public/img-home/passeios-lencois-maranhenses.webp";
+import culturaIcon from "../../public/img-home/icons/Cultura.png";
+import naturezaIcon from "../../public/img-home/icons/Natureza.png";
+import historiaIcon from "../../public/img-home/icons/História.png";
+import viagemImg from "../../public/img-home/viagem-maranhao.png";
+import comentarioImg from "../../public/img-home/imageComentario.png";
+
 
 function Home() {
   return (
