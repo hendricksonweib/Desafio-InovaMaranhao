@@ -226,6 +226,20 @@ function Home() {''
         </div>
         <img className="imgdepoimento" src={imgComentario} alt="" style={{width: '30%' }} />
       </section>
+      <section className="depoimentos">
+
+        <div className="cardimput">
+      <Title texto="Inscreva-se para Receber Mais Informações!" />
+      <Paragraph
+              fontWeight={"800"}
+              texto="Deixe seu email e não perca nenhuma novidade sobre o Maranhão."
+            />
+        <div className="input-conteiner">
+          <input type="email" placeholder="Digite seu email!"/>
+          <button>Enviar</button>
+        </div>
+        </div>
+      </section>
     </>
   );
 }

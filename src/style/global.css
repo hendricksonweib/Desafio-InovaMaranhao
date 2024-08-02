@@ -32,7 +32,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+.cardimput{
+    text-align: center;
 }
 .imgdepoimento{
     margin-top: 6rem;
