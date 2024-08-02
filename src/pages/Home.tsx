@@ -3,7 +3,6 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-import ImagemComentario from "../../public/img-home/imageComentario.png";
 
 import imgCard1 from "../../public/img-home/maranhao-alcantara.webp";
 import imgCard2 from "../../public/img-home/maranhao-chapada.jpg.webp";
@@ -211,7 +210,7 @@ function Home() {''
             <Title texto="O que as pessoas 
             dizem sobre" />
         </div>
-        <img className="imgdepoimento" src={ImagemComentario} alt="" />
+        <img className="imgdepoimento" src="../../public/img-home/imageComentario.png" alt="" />
       </section>
       <section className="depoimentos">
 
