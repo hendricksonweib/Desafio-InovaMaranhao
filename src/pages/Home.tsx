@@ -3,7 +3,8 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-import imgHome from "../../public/img-home/home-img.png";
+import homeImage from '../../public/img-home/home-img.png';
+
 import imgicon1 from "../../public/img-home/icons/Culinaria.png";
 import imgicon2 from "../../public/img-home/icons/Festa.png";
 import imgicon3 from "../../public/img-home/icons/Artesanato.png";
@@ -41,7 +42,7 @@ function Home() {''
           </div>
           <div className="home-hero-img">
             <img
-              src={imgHome}
+              src={homeImage}
               alt="Imagem de viagem"
               className="img"
               width={590}
