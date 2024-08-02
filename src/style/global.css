@@ -28,7 +28,15 @@
     flex-direction: column;
     width: 30rem;
 }
-
+.depoimentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgdepoimento{
+    margin-top: 6rem;
+}
 .youtube-video{
     display: flex;
     align-items: center;

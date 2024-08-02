@@ -24,7 +24,7 @@ function Culinaria() {
         {/* Hero - a parte de banner da pagina */}
         <section className='hero'>
           <div className='container'>
-            <div className='hero-content'>
+              <div className='hero-content'>
             <h3 className="subtitle-culinaria">Comida típica do Maranhão</h3>
             <Title texto="Como é a culinária maranhense?"/>
             <Paragraph fontWeight={"400"} texto="A culinária maranhense tem raízes indígenas e influências europeias, especialmente portuguesa e francesa. Os pratos típicos regionais incluem carne de boi, como cozidão, panelada e mocotó, com uso de pedaços menos nobres no interior do estado. As frutas amazônicas e tropicais, como cupuaçu, bacuri, graviola, buriti, manga, laranja e cajá, são as mais consumidas."  />
