@@ -3,21 +3,21 @@ import Title from "../ui/Title";
 
 import Paragraph from "../ui/Paragraph";
 // Imagens
-
 import imgicon1 from "../../public/img-home/icons/Culinaria.png";
 import imgicon2 from "../../public/img-home/icons/Festa.png";
 import imgicon3 from "../../public/img-home/icons/Artesanato.png";
-import imgicon4 from "../../public/img-home/icons/Turísmo.png";
-import imgIcon5 from"../../public/img-home/icons/Seta.png";
+import imgicon4 from "../../public/img-home/icons/Turismo.png";
+import imgIcon5 from "../../public/img-home/icons/Seta.png";
 import imgIcon6 from "../../public/img-home/icons/Cultura.png";
 import imgIcon7 from "../../public/img-home/icons/Natureza.png";
 import imgIcon8 from "../../public/img-home/icons/História.png";
-import ImagemCOmentario from "../../public/img-home/imageComentario.png"
+import ImagemComentario from "../../public/img-home/imageComentario.png";
 
 import imgCard1 from "../../public/img-home/maranhao-alcantara.webp";
 import imgCard2 from "../../public/img-home/maranhao-chapada.jpg.webp";
 import imgCard3 from "../../public/img-home/passeios-lencois-maranhenses.webp";
 import img1 from "../../public/img-home/viagem-maranhao.png";
+
 
 
 
@@ -219,7 +219,7 @@ function Home() {''
             <Title texto="O que as pessoas 
             dizem sobre" />
         </div>
-        <img className="imgdepoimento" src={ImagemCOmentario} alt="" />
+        <img className="imgdepoimento" src={ImagemComentario} alt="" />
       </section>
       <section className="depoimentos">
 
